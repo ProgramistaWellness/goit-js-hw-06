@@ -7,9 +7,11 @@ const ingredients = [
   "Condiments",
 ];
 const list = document.querySelector("#ingredients");
+const arrayLi = [];
 ingredients.forEach((elm) => {
   const listElm = document.createElement("li");
   listElm.textContent = elm;
   listElm.classList.add("item");
-  list.append(listElm);
+  arrayLi.push(listElm);
 });
+list.append(...arrayLi);
