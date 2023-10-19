@@ -1,7 +1,3 @@
-//4. Jeśli użytkownik uzupełnił wszystkie pola i wysłał formularz, pobierz wartość pól jako obiekt, gdzie nazwa
-//   pola będzie nazwą właściwości, a wartość pola - wartością właściwości. Aby otrzymać dostęp do elementów 
-//   formularza użyj właściwości elements.
-//5. Wypisz obiekt z wartościami formularza w konsoli i wyczyść wartości pól input metodą reset.
 const loginForm = document.querySelector(".login-form");
 const formMail = document.querySelector('[name="email"]');
 const formPass = document.querySelector('[name="password"]');
