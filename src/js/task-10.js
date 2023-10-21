@@ -39,6 +39,7 @@ boxes.insertAdjacentHTML("beforeend", markup)
     
 destroyBtn.addEventListener("click", () => {
     boxes.innerHTML = '';
+    input.value = '';
 })
     
   

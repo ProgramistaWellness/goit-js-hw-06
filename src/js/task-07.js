@@ -4,6 +4,7 @@
 
 const inputControl = document.querySelector("#font-size-control");
 const spanText = document.querySelector("#text");
+spanText.style.fontSize = '55px'
 const changeFontSize = () => {
  const currentSize = parseInt(inputControl.value);
  spanText.style.fontSize = `${currentSize}px`;
